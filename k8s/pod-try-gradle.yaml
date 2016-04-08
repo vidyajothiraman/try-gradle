@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: try-gradle
+  labels:
+    app: try-gradle
+spec:
+  containers:
+  - name: try-gradle
+    image: adejonge/try-gradle
+    ports:
+    - containerPort: 8080
