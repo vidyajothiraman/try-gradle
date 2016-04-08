@@ -1,5 +1,9 @@
 apply plugin: 'war'
 
+war {
+	archiveName 'try-gradle.war'
+}
+
 repositories {
     mavenCentral()
 }
