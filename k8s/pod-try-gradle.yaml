@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: try-gradle
-    image: vidyajothiraman/try-gradle
+    image: vjothira/rel_gradle
     ports:
     - containerPort: 8080
